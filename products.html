@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品中心 | 菲晟科技</title>
+    <meta name="description" content="菲晟科技产品中心 - 手机电源、笔记本电源、音响电源等各类电源解决方案">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Playfair+Display:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航菜单 -->
+    <nav class="navbar navbar-light">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">菲晟科技</span>
+                <span class="logo-en">Feisheng Technology</span>
+            </a>
+            <div class="nav-actions">
+                <a href="en/products.html" class="lang-switch" title="Switch to English">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    English
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="菜单">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="products.html" class="active">产品中心</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <header class="page-header">
+        <div class="page-header-bg">
+            <img src="./public/images/products-header.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="page-header-content">
+                <span class="page-tag">产品中心</span>
+                <h1 class="page-title">多元化电源解决方案</h1>
+                <p class="page-desc">涵盖手机、笔记本、音响等多类电子产品的专业电源产品</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 产品分类导航 -->
+    <section class="product-nav-section">
+        <div class="container">
+            <div class="product-nav">
+                <a href="products.html#phone" class="product-nav-item active">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                            <line x1="12" y1="18" x2="12.01" y2="18"/>
+                        </svg>
+                    </span>
+                    <span>手机电源</span>
+                </a>
+                <a href="products.html#laptop" class="product-nav-item">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="2" y1="20" x2="22" y2="20"/>
+                        </svg>
+                    </span>
+                    <span>笔记本电源</span>
+                </a>
+                <a href="products.html#audio" class="product-nav-item">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                        </svg>
+                    </span>
+                    <span>音响电源</span>
+                </a>
+                <a href="products.html#industrial" class="product-nav-item">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </span>
+                    <span>工业电源</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 手机电源 -->
+    <section class="product-category" id="phone">
+        <div class="container">
+            <div class="category-header">
+                <div class="category-info">
+                    <span class="category-tag">移动设备电源</span>
+                    <h2 class="category-title">手机电源适配器</h2>
+                    <p class="category-desc">支持PD/QC等多种快充协议，兼容各大品牌手机，小巧便携设计，安全可靠</p>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/phone-charger.jpg" alt="20W PD快充">
+                        <span class="product-badge">热销</span>
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>20W PD快充适配器</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">20W MAX</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出协议</span>
+                                <span class="spec-value">PD3.0 / QC3.0 / AFC</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 100-240V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">接口类型</span>
+                                <span class="spec-value">USB-C</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥92%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">尺寸</span>
+                                <span class="spec-value">30×30×28mm</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">小巧便携</span>
+                            <span class="feature-tag">智能识别</span>
+                            <span class="feature-tag">多重保护</span>
+                            <span class="feature-tag">低温快充</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/phone-charger-2.jpg" alt="65W GaN快充">
+                        <span class="product-badge new">新品</span>
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>65W GaN氮化镓快充</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">65W MAX</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出协议</span>
+                                <span class="spec-value">PD3.0 / PPS / QC4+</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">接口数量</span>
+                                <span class="spec-value">2C+1A</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 100-240V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥94%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">尺寸</span>
+                                <span class="spec-value">56×56×30mm</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">GaN技术</span>
+                            <span class="feature-tag">三口输出</span>
+                            <span class="feature-tag">折叠插脚</span>
+                            <span class="feature-tag">笔记本适配</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 笔记本电源 -->
+    <section class="product-category alt-bg" id="laptop">
+        <div class="container">
+            <div class="category-header">
+                <div class="category-info">
+                    <span class="category-tag">办公设备电源</span>
+                    <h2 class="category-title">笔记本电源适配器</h2>
+                    <p class="category-desc">高功率稳定输出，支持主流笔记本品牌，轻薄便携，高效散热设计</p>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/laptop-charger.jpg" alt="90W笔记本适配器">
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>90W轻薄型笔记本适配器</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">90W MAX</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出电压</span>
+                                <span class="spec-value">19V/4.74A</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">接口规格</span>
+                                <span class="spec-value">5.5×2.5mm / 4.5×3.0mm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 100-240V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥93%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">重量</span>
+                                <span class="spec-value">280g</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">轻薄设计</span>
+                            <span class="feature-tag">静音散热</span>
+                            <span class="feature-tag">兼容多品牌</span>
+                            <span class="feature-tag">过压保护</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/laptop-charger-2.jpg" alt="120W Type-C笔记本适配器">
+                        <span class="product-badge">热销</span>
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>120W Type-C PD笔记本适配器</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">120W MAX</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出协议</span>
+                                <span class="spec-value">PD3.0 / PPS</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出档位</span>
+                                <span class="spec-value">5V/9V/15V/20V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 100-240V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥94%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">重量</span>
+                                <span class="spec-value">320g</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">通用Type-C</span>
+                            <span class="feature-tag">智能档位</span>
+                            <span class="feature-tag">快充协议</span>
+                            <span class="feature-tag">折叠插脚</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 音响电源 -->
+    <section class="product-category" id="audio">
+        <div class="container">
+            <div class="category-header">
+                <div class="category-info">
+                    <span class="category-tag">音频设备电源</span>
+                    <h2 class="category-title">音响电源系统</h2>
+                    <p class="category-desc">纯净电源输出，低纹波低噪声设计，为高保真音响系统提供优质电源保障</p>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/audio-power.jpg" alt="Hi-Fi音响电源">
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>Hi-Fi发烧级音响电源</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">200W MAX</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出电压</span>
+                                <span class="spec-value">DC 12V/24V/48V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">纹波噪声</span>
+                                <span class="spec-value">≤50mVp-p</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 220V 50Hz</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥91%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">保护功能</span>
+                                <span class="spec-value">过压/过流/短路</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">低纹波设计</span>
+                            <span class="feature-tag">纯铜变压器</span>
+                            <span class="feature-tag">EMI滤波</span>
+                            <span class="feature-tag">金属外壳</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/audio-power-2.jpg" alt="专业功放电源">
+                        <span class="product-badge">专业</span>
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>专业功放开关电源</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">500W-2000W</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出电压</span>
+                                <span class="spec-value">±45V~±90V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">纹波噪声</span>
+                                <span class="spec-value">≤100mVp-p</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 110V/220V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥92%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">散热方式</span>
+                                <span class="spec-value">风冷/铝散热</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">大功率设计</span>
+                            <span class="feature-tag">双电压输出</span>
+                            <span class="feature-tag">软启动</span>
+                            <span class="feature-tag">短路保护</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工业电源 -->
+    <section class="product-category alt-bg" id="industrial">
+        <div class="container">
+            <div class="category-header">
+                <div class="category-info">
+                    <span class="category-tag">工业应用</span>
+                    <h2 class="category-title">工业电源</h2>
+                    <p class="category-desc">高可靠性工业级电源，适用于自动化设备、通信设备、LED照明等领域</p>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/industrial-power.jpg" alt="导轨式工业电源">
+                        <span class="product-badge">工业级</span>
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>DIN导轨式工业电源</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">60W-480W</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出电压</span>
+                                <span class="spec-value">12V/24V/48V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输入电压</span>
+                                <span class="spec-value">AC 85-264V</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">工作温度</span>
+                                <span class="spec-value">-30°C~+70°C</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">MTBF</span>
+                                <span class="spec-value">≥500,000h</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">防护等级</span>
+                                <span class="spec-value">IP20</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">宽电压输入</span>
+                            <span class="feature-tag">高可靠性</span>
+                            <span class="feature-tag">导轨安装</span>
+                            <span class="feature-tag">短路保护</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-image">
+                        <img src="./public/images/industrial-power-2.jpg" alt="LED驱动电源">
+                    </div>
+                    <div class="product-detail-info">
+                        <h3>LED照明驱动电源</h3>
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">输出功率</span>
+                                <span class="spec-value">30W-300W</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出方式</span>
+                                <span class="spec-value">恒流/恒压</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">输出电流</span>
+                                <span class="spec-value">350mA-3000mA</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">功率因数</span>
+                                <span class="spec-value">PF≥0.95</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">效率</span>
+                                <span class="spec-value">≥90%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">防水等级</span>
+                                <span class="spec-value">IP65/IP67</span>
+                            </div>
+                        </div>
+                        <div class="product-features">
+                            <span class="feature-tag">防水设计</span>
+                            <span class="feature-tag">高PF值</span>
+                            <span class="feature-tag">无频闪</span>
+                            <span class="feature-tag">调光功能</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 定制服务 -->
+    <section class="custom-service">
+        <div class="container">
+            <div class="custom-service-content">
+                <div class="custom-info">
+                    <span class="section-tag">定制服务</span>
+                    <h2>没有找到您需要的规格？</h2>
+                    <p>我们支持产品定制服务，可根据您的具体需求定制电源规格参数</p>
+                    <ul class="custom-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>支持特殊电压、电流定制</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>可选配特殊接口规格</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>支持定制外壳尺寸与外观</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>快速打样，缩短开发周期</span>
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">咨询定制需求</a>
+                </div>
+                <div class="custom-image">
+                    <img src="./public/images/custom-service.jpg" alt="定制服务">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-about">
+                        <a href="index.html" class="footer-logo">
+                            <span class="logo-text">菲晟科技</span>
+                            <span class="logo-en">Feisheng Technology</span>
+                        </a>
+                        <p>深圳市菲晟科技有限公司专注于电源解决方案的研发与创新，致力于为客户提供高效、安全、可靠的电源产品。</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>快速链接</h4>
+                        <ul>
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="products.html">产品中心</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>产品分类</h4>
+                        <ul>
+                            <li><a href="products.html#phone">手机电源</a></li>
+                            <li><a href="products.html#laptop">笔记本电源</a></li>
+                            <li><a href="products.html#audio">音响电源</a></li>
+                            <li><a href="products.html#industrial">工业电源</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>联系方式</h4>
+                        <ul class="contact-info">
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span>深圳市宝安区西乡街道</span>
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <span>+86 755-8514-6726</span>
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>info@fesing.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 深圳市菲晟科技有限公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
